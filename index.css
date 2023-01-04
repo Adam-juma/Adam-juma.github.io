@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nb{
+    display: flex;
+    background-color: pink;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+}
+.nb a{
+    text-decoration: none;
+    padding: 20px 70px;
+    color: white;
+}
+.nb a:hover{
+    background-color: white;
+    color: pink;
+}
+.hm{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: pink;
+    background-size: cover;
+}
+.hm >div{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 700px;color: white;
+    
+}
+.abt{
+    display: flex;
+    justify-content: center;
+}
+.abt > div{
+    background-color: pink;
+    color: white;
+    height: 200px;
+    width: 700px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    border-left: 4px solid palevioletred;
+    padding: 3px;
+}
+.ls1{
+    display: flex;
+
+}
+.ls1 > div{
+    width: 350px;
+    padding: 15px;
+    color: palevioletred;
+    text-align: center;
+}
+.ls1 > div > img{
+    width: 100%;
+}
+.ls{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ls > div{
+    padding: 15px;
+    width: 250px;
+    color: palevioletred;
+    text-align: center;
+}
+.ls > div > img{
+    width: 100%;
+}
+.revs{
+    display: flex;
+    
+    justify-content: center;
+    background-color: pink;
+    align-items: center;
+    height: 500px;
+    border-radius: 200px;
+}
+.revs > div{
+    width: 400px;
+    height:200px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    color: palevioletred;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
+.od{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    border-radius: 700px;
+}
+.od > div{
+    padding: 40px;
+}
+.ntb{
+    padding: 10px 35px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 25px;
+    display: inline-block;
+    margin: 15px 0;
+    border: 2px solid palevioletred;
+}
+.free{
+    display: flex;
+    justify-content: center;
+
+}
+.free > div{
+    height: 300px;
+    text-align: center;
+}
